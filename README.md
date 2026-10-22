@@ -7,10 +7,10 @@ Você vai aprender a criar uma conexão com o banco, incluir registros, buscar p
 tudo usando comandos SQL.
 
 **Arquivos:**  
-*  main.py: programa principal, menu e conexão com o banco  
-*  banco.py: cria o arquivo rpg.db e as 5 tabelas  
-*  classes.py: funções da tabela classes  
-*  jogadores.py: funções da tabela jogadores  
-*  itens.py: funções da tabela itens  
-*  personagens.py: funções da tabela presonagens  
-*  inventario.py: funções da tabela inventário  
+*  **main.py:** programa principal, menu e conexão com o banco  
+*  **rpg.py:** cria o arquivo rpg.db e as 5 tabelas  
+*  **classes.py:** id e nome  
+*  **jogadores.py:** id, nome e apelido  
+*  **itens.py:** id, nome, tipo e poder  
+*  **personagens.py:** id, nome, nivel, jogador_id e classe_id  
+*  **inventario.py:** id, personagem_id, item_id e quantidade 
