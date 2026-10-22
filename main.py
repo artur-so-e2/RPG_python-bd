@@ -33,9 +33,9 @@ def menu_jogadores():
         if opcao == '1':
             nome = input("Digite o nome do novo jogador: ")
             apelido = input("Digite o seu apelido (nick): ")
-            incluir_classes(conn, nome, apelido)
+            incluir_jogadores(conn, nome, apelido)
         elif opcao == '2':
-            listar_classes(conn)
+            listar_jogadores(conn)
             input("Aperte 'Enter' para continuar.")
         elif opcao == '3':
             limpa_tela()
